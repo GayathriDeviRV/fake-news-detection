@@ -1,11 +1,11 @@
 # fake-news-detection
-The project utilizes machine learning and deep learning techniques to detect fake news in Tamil and Malayalam languages, employing methods like Bag of Words, TF-IDF, logistic regression, random forest, and a multi-layer perceptron model with dropout regularization.
+The project utilizes machine learning and deep learning techniques to detect fake news in low resource languages such as Tamil and Malayalam languages, employing methods like Bag of Words, TF-IDF, logistic regression, random forest, and a multi-layer perceptron model with dropout regularization.
 
 ## Methodologies
 ### Data Loading and Preprocessing
 
 - Load Data: The dataset is loaded from a CSV file.
-- Inspect Columns: Column names are inspected and cleaned to remove leading/trailing spaces.
+- Inspect Columns: Data is cleaned by converting it to lowercase, removing square brackets content, URLs, HTML tags, punctuation, and newline characters.
 
 ## Feature Extraction
 
